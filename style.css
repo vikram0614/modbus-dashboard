@@ -1,0 +1,21 @@
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; }
+header { padding: 16px; border-bottom: 1px solid #ddd; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+h1 { margin: 0; font-size: 18px; }
+.controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.arm { display: inline-flex; align-items: center; gap: 8px; padding: 8px 10px; border: 1px solid #ddd; border-radius: 10px; }
+.addreg { display: inline-flex; gap: 8px; }
+.addreg input { padding: 8px 10px; border: 1px solid #ddd; border-radius: 10px; min-width: 240px; }
+.addreg button { padding: 8px 12px; border: 1px solid #ddd; border-radius: 10px; background: #fff; cursor: pointer; }
+
+main { padding: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px; }
+.card { border: 1px solid #ddd; border-radius: 14px; padding: 12px; }
+.card h2 { margin: 0 0 8px 0; font-size: 16px; }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { border-top: 1px solid #eee; padding: 8px 6px; text-align: left; font-size: 13px; vertical-align: middle; }
+.bad { color: #b00020; }
+.good { color: #0a7a2f; }
+
+.write { display: inline-flex; gap: 6px; align-items: center; }
+.write input { width: 90px; padding: 6px 8px; border: 1px solid #ddd; border-radius: 8px; }
+.write button { padding: 6px 10px; border: 1px solid #ddd; border-radius: 8px; background: #fff; cursor: pointer; }
+small { color: #666; }
