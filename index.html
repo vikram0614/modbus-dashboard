@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Modbus Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>Modbus Dashboard</h1>
+    <div class="controls">
+      <label class="arm">
+        <input id="armToggle" type="checkbox" />
+        <span>ARM WRITES</span>
+      </label>
+
+      <div class="addreg">
+        <input id="regInput" placeholder="Add register (e.g. 0x2000 or 8192)" />
+        <button id="addRegBtn">Add</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="devices"></main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
